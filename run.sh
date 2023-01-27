@@ -6,4 +6,4 @@ then
   exit 1
 fi
 
-java -cp "target/*:target/dependencies/*" com.github.dhoard.kafka.ProducerTest "${1}"
+java -jar target/producer-test-0.0.2.jar "${1}"
