@@ -33,7 +33,7 @@ public class ProducerTest {
 
     public void run(String[] args) throws Exception {
         if ((args == null) || (args.length != 1)) {
-            System.out.println("Usage: .. <test properties>");
+            System.out.println("Usage: java -jar <jar> <test properties>");
             return;
         }
 
