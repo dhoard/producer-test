@@ -6,8 +6,6 @@ import java.util.List;
 
 public class Timer {
 
-    private long time;
-
     private long startTime;
 
     private List<Long> timeList;
