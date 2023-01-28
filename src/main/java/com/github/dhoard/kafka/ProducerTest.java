@@ -32,6 +32,11 @@ public class ProducerTest {
     }
 
     public void run(String[] args) throws Exception {
+        if ((args == null) || (args.length != 1)) {
+            System.out.println("Usage: .. <test properties>");
+            return;
+        }
+
         Properties properties = new Properties();
 
         try (Reader reader = new FileReader(args[0])) {
