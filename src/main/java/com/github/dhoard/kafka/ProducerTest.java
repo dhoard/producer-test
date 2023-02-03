@@ -98,7 +98,7 @@ public class ProducerTest {
             System.out.println("30th %-tile  : " + timer.getPercentile(30) + " ms");
             System.out.println("20th %-tile  : " + timer.getPercentile(20) + " ms");
             System.out.println("10th %-tile  : " + timer.getPercentile(10) + " ms");
-            System.out.println("rate         : " + ((double) recordCount) / (timer.getTime() / 1000.0d) + " messages per second");
+            System.out.println("rate         : " + ((double) recordCount) / (timer.getTime() / 1000.0d) + " records per second");
 
             /*
             System.out.println();
